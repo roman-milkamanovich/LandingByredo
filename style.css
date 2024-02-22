@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+    background-color: #F5F5F5; 
+    color: #333;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 18px;
+    font-style: normal;    
+    font-weight: 200;
+    margin: 0;
+  }
+  
+  h1, h2, h3 {
+    color: #444;
+  }
+  
+  a {
+    color: #c0aea4;
+    font-weight: bold;
+    transition: color 0.8s ease;
+  }
+
+  a.hover {
+    color: #bc959520;
+  }
+
+  .banner {
+    background-color: #282828;
+    background-image: url('images/background.png');
+    background-position: center; 
+    opacity: 0.9;
+    background-size: cover;
+    font-weight: 900;
+    padding: 100px 0;
+    text-align: center;
+    
+  }
+  
+  .banner h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .banner p {
+    color: #3b3b3b;
+    font-size: 30px;
+    opacity: 0.8;
+  }
+
+  .button-blue { 
+    background-color: #444; 
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 50px;
+    transition: background-color 0.8s ease;
+}
+  
+  .button-blue:hover {
+    background-color: #666; 
+  }
+  
+  
+  .card-white {
+    background: white;
+    padding: 24px;
+    margin: 8px;
+  }
+  
+  .card-white img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-white h3 {
+    margin: 0;
+  }
+  
+  .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      ;
+    }
+
+  .container {
+    width: 1200px;
+    margin: auto;
+  }
+  
+  .footer {
+    background: #444; 
+    color: white;
+    padding: 12px 0;
+    text-align: center;
+}
+  
+  .footer p {
+      color: white;
+  }
+  
+  @media (max-width: 700px) {
+    .container {
+      width: 400px;
+    }
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+
+  
